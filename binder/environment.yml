@@ -12,3 +12,6 @@ dependencies:
   - bokeh
   - dask
   - plotly
+  - bqplot
+  - seaborn
+  - sklearn
