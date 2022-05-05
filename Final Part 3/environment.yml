@@ -1,0 +1,13 @@
+name: example-environment
+channels:
+  - defaults
+dependencies:
+  - python=3.10.2
+  - pandas
+  - numpy
+  - traitlets
+  - ipywidgets
+  - plotly
+  - bqplot
+  - matplotlib
+  - datetime
