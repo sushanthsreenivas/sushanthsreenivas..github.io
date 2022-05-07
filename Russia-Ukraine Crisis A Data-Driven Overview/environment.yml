@@ -1,8 +1,12 @@
 name: example-environment
 channels:
-  - conda-forge
+  - defaults
 dependencies:
+  - python=3.10.2
+  - pandas
   - numpy
+  - traitlets
+  - ipywidgets
   - psutil
   - toolz
   - matplotlib
@@ -15,4 +19,4 @@ dependencies:
   - bqplot
   - seaborn
   - panel
-  - squarify-0.4.3
+  - squarify
